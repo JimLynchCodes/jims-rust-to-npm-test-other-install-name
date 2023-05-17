@@ -37,7 +37,7 @@ Login to your npmjs.com account in your terminal:
 npm adduser
 ```
 
-## Step 6) Install rust-to-npm
+## Step 7) Install 
 ```sh
 cargo install rust-to-npm-cli
 ```
@@ -48,28 +48,10 @@ OR via npm (but not both)
 npm i -g rust-to-npm-cli
 ```
 
-## Step 7) Deploy With Other Name
+## Step 6) Deploy
 ```sh
-rust-to-npm-cli deploy -b -n other-name-jims-rust-to-npm-cli-test
+rust-to-npm-cli deploy -b
 ```
 
-## Step 8) Re-Deploy
+## Step 7) Re-Deploy
 Change the version in Caargo.toml (according to semver) and then repeat step 6.
-
-## Step 9) Install Your Package
-
-```sh
-npm i -g other-name-jims-rust-to-npm-cli-test
-```
-
-_or_
-
-```sh
-cargo install other-name-jims-rust-to-npm-cli-test
-```
-
-## Step 10) User Your Package
-
-```sh
-jims-new-rust-cli-test
-```
